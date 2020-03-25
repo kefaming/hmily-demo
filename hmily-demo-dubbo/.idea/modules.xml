@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-dubbo.iml" filepath="$PROJECT_DIR$/hmily-demo-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-dubbo-account/hmily-demo-dubbo-account.iml" filepath="$PROJECT_DIR$/hmily-demo-dubbo-account/hmily-demo-dubbo-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-dubbo-account-api/hmily-demo-dubbo-account-api.iml" filepath="$PROJECT_DIR$/hmily-demo-dubbo-account-api/hmily-demo-dubbo-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-dubbo-inventory/hmily-demo-dubbo-inventory.iml" filepath="$PROJECT_DIR$/hmily-demo-dubbo-inventory/hmily-demo-dubbo-inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-dubbo-inventory-api/hmily-demo-dubbo-inventory-api.iml" filepath="$PROJECT_DIR$/hmily-demo-dubbo-inventory-api/hmily-demo-dubbo-inventory-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-dubbo-order/hmily-demo-dubbo-order.iml" filepath="$PROJECT_DIR$/hmily-demo-dubbo-order/hmily-demo-dubbo-order.iml" />
+    </modules>
+  </component>
+</project>
