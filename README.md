@@ -26,7 +26,7 @@ Hmily 是一款高性能分布式事务 tcc 开源框架。基于java语言来�
 
 #### step 4
 
-初始情况下，account（帐户） 表中的 balance（帐户余额）的初始值为：10000, freeze_amount（冻结金额）的初始值为为：0，inventory（库存） 表中 total_inventory（商品总库存数）的初始值为：1000, lock_inventory（锁定库存数）的初始值为：0。如果调用成功的话，balance 最终会变为 9998, total_inventory 会变为 999，同时 order 表中会增加一条订单信息。
+初始情况下，account（帐户） 表中的 balance（帐户余额）的初始值为：10000，freeze_amount（冻结金额）的初始值为为：0，inventory（库存） 表中 total_inventory（商品总库存数）的初始值为：1000，lock_inventory（锁定库存数）的初始值为：0。如果调用成功的话，balance 最终会变为 9998，total_inventory 会变为 999，同时 order 表中会增加一条订单信息。
 
 
 
