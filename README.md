@@ -14,7 +14,7 @@ Hmily 是一款高性能分布式事务 tcc 开源框架。基于java语言来�
 
 #### step 1
 
-导入 hmily-demo.sql 文件中的数据。包括三个库：tcc_account,tcc_order,tcc_stock，每个库下各自有一张表，分别为 accout,order,inventory，为别为帐户表、订单表和库存表。
+导入 hmily-demo.sql 文件中的数据。包括三个库：tcc_account, tcc_order, tcc_stock，每个库下各自有一张表，分别为帐户、订单和库存。
 
 #### step 2
 
@@ -26,7 +26,7 @@ Hmily 是一款高性能分布式事务 tcc 开源框架。基于java语言来�
 
 #### step 4
 
-如果调用成功的话，balance 最终会变为 9998，total_inventory 会变为 999，同时 order 表中会增加一条订单信息。其中 balance 和 total_inventory 初始值分别为 10000 和 1000，即 商品总数扣减1，帐户余额扣减2.
+如果调用成功的话，帐户表中的 balance 最终会变为 9998，库存表中的 total_inventory 会变为 999，同时 order 表中会增加一条订单记录，即下单成功后商品总数扣减1，帐户余额扣减2。balance 和 total_inventory 初始值分别为 10000 和 1000。
 
 
 
